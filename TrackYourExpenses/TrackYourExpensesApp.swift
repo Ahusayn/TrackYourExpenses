@@ -12,6 +12,7 @@ struct TrackYourExpensesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(TransactionListModel())
         }
     }
 }

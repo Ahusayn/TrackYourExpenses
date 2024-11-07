@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0402DCD22CD12430000AC2FE /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 0402DCD12CD12430000AC2FE /* SwiftUIFontIcon */; };
+		042B00F32CDA180800D1F8B7 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 042B00F22CDA180800D1F8B7 /* Collections */; };
+		048228692CD7ABE0007FFE39 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 048228682CD7ABE0007FFE39 /* SwiftUICharts */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		044D39D02CD01E9A00E25F09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,20 +35,34 @@
 		044D39D92CD01E9A00E25F09 /* TrackYourExpensesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackYourExpensesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		044D39F22CD026A800E25F09 /* Exceptions for "TrackYourExpenses" folder in "TrackYourExpenses" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = 044D39BE2CD01E9700E25F09 /* TrackYourExpenses */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		044D39F32CD026A800E25F09 /* Exceptions for "TrackYourExpenses" folder in "Compile Sources" phase from "TrackYourExpenses" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 044D39BB2CD01E9700E25F09 /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		044D39C12CD01E9700E25F09 /* TrackYourExpenses */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				044D39F22CD026A800E25F09 /* Exceptions for "TrackYourExpenses" folder in "TrackYourExpenses" target */,
+				044D39F32CD026A800E25F09 /* Exceptions for "TrackYourExpenses" folder in "Compile Sources" phase from "TrackYourExpenses" target */,
+			);
 			path = TrackYourExpenses;
-			sourceTree = "<group>";
-		};
-		044D39D22CD01E9A00E25F09 /* TrackYourExpensesTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrackYourExpensesTests;
-			sourceTree = "<group>";
-		};
-		044D39DC2CD01E9A00E25F09 /* TrackYourExpensesUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrackYourExpensesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042B00F32CDA180800D1F8B7 /* Collections in Frameworks */,
+				0402DCD22CD12430000AC2FE /* SwiftUIFontIcon in Frameworks */,
+				048228692CD7ABE0007FFE39 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				044D39C12CD01E9700E25F09 /* TrackYourExpenses */,
-				044D39D22CD01E9A00E25F09 /* TrackYourExpensesTests */,
-				044D39DC2CD01E9A00E25F09 /* TrackYourExpensesUITests */,
 				044D39C02CD01E9700E25F09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +133,9 @@
 			);
 			name = TrackYourExpenses;
 			packageProductDependencies = (
+				0402DCD12CD12430000AC2FE /* SwiftUIFontIcon */,
+				048228682CD7ABE0007FFE39 /* SwiftUICharts */,
+				042B00F22CDA180800D1F8B7 /* Collections */,
 			);
 			productName = TrackYourExpenses;
 			productReference = 044D39BF2CD01E9700E25F09 /* TrackYourExpenses.app */;
@@ -129,9 +153,6 @@
 			);
 			dependencies = (
 				044D39D12CD01E9A00E25F09 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				044D39D22CD01E9A00E25F09 /* TrackYourExpensesTests */,
 			);
 			name = TrackYourExpensesTests;
 			packageProductDependencies = (
@@ -152,9 +173,6 @@
 			);
 			dependencies = (
 				044D39DB2CD01E9A00E25F09 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				044D39DC2CD01E9A00E25F09 /* TrackYourExpensesUITests */,
 			);
 			name = TrackYourExpensesUITests;
 			packageProductDependencies = (
@@ -195,6 +213,11 @@
 			);
 			mainGroup = 044D39B62CD01E9700E25F09;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0402DCD02CD12430000AC2FE /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				048228672CD7ABE0007FFE39 /* XCRemoteSwiftPackageReference "ChartView" */,
+				042B00F12CDA180800D1F8B7 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 044D39C02CD01E9700E25F09 /* Products */;
 			projectDirPath = "";
@@ -552,6 +575,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0402DCD02CD12430000AC2FE /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		042B00F12CDA180800D1F8B7 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+		048228672CD7ABE0007FFE39 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0402DCD12CD12430000AC2FE /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0402DCD02CD12430000AC2FE /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		042B00F22CDA180800D1F8B7 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042B00F12CDA180800D1F8B7 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		048228682CD7ABE0007FFE39 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048228672CD7ABE0007FFE39 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 044D39B72CD01E9700E25F09 /* Project object */;
 }
