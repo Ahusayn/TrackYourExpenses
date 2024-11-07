@@ -14,6 +14,7 @@ Tech Stack
 -SwiftUI Charts for visualizations
 =JsonBin for mock API data
 
-https://github.com/Ahusayn/TrackYourExpenses/blob/777893a0c480fd5573cc71e6f67ae6f70c9871dd/Screenshot%202024-11-07%20at%2021.29.52.png
+![Image Alt](https://github.com/Ahusayn/TrackYourExpenses/blob/777893a0c480fd5573cc71e6f67ae6f70c9871dd/Screenshot%202024-11-07%20at%2021.29.52.png
+)
 
-https://github.com/Ahusayn/TrackYourExpenses/blob/777893a0c480fd5573cc71e6f67ae6f70c9871dd/Screenshot%202024-11-07%20at%2021.29.58.png
+![Image Alt](https://github.com/Ahusayn/TrackYourExpenses/blob/777893a0c480fd5573cc71e6f67ae6f70c9871dd/Screenshot%202024-11-07%20at%2021.29.58.png)
