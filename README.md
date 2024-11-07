@@ -1,1 +1,1 @@
-![Uploading Screenshot 2024-11-07 at 21.29.52.png…]()
+![Alt text](https://github.com/yourusername/repo-name/raw/main/images/your-image.png)
